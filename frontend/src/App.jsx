@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 
-const bgImageUrl = '/background.jpg'; // Place Background-33.jpg in the public folder
+const bgImageUrl = `${import.meta.env.BASE_URL}./background.webp`; 
 
 function App() {
   return (
